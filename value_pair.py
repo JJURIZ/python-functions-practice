@@ -7,12 +7,16 @@ function valuePair(obj1, obj2, key) {
     return arr;
 }
 """
+first_pair = {"name": "One", "location": "Remote", "age": 1}
+second_pair = {"name": "Two", "location": "San Francisco"}
 
 def value_pair(dict1, dict2, key):
-    val1 = dict1.keys
-    val2 = dict2.keys
-    array = [val1, val2]
+    print(dict1)
+    print(dict1[key])
+    print(dict2)
+    print(dict2[key])
 
-    print(array)
+    return [dict1[key], dict2[key]]
 
-value_pair({"Joe"},{"Larry"},"Harry")
+print(value_pair(first_pair, second_pair, "name"))
+

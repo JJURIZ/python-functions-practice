@@ -17,4 +17,4 @@ def cat_builder(name, color, toys):
     }
     return cat
 
-print(cat_builder("Fluffykins", "Grey", "Laser Pointer"))
+print(cat_builder("Fluffykins", "Grey", ["Laser Pointer", "Boxes"]))
